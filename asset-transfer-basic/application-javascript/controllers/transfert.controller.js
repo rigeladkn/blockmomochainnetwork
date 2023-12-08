@@ -49,11 +49,11 @@ const sendTransaction = asyncHandler(
             process.exit(1);
         }
     }
-);
+);  
  
-
-const updateSoldes = asyncHandler(
-    async function(req,res){
+ 
+const updateSoldes = asyncHandler( 
+    async function(req,res){   
         try {
             const soldes = req.body; //qrray of soldes
             const ccp = buildCCPOrg1();

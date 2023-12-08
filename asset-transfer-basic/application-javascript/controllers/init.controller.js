@@ -7,9 +7,9 @@ const { buildCAClient, registerAndEnrollUser, enrollAdmin } = require('../../../
 const { buildCCPOrg1, buildWallet } = require('../../../test-application/javascript/AppUtil.js');
 
 const channelName = process.env.CHANNEL_NAME || 'mychannel';
-const chaincodeName = process.env.CHAINCODE_NAME || 'basic';
+const chaincodeName = process.env.CHAINCODE_NAME || 'basic'; 
 
-const mspOrg1 = 'Org1MSP';
+const mspOrg1 = 'Org1MSP';  
 const walletPath = path.join(__dirname, 'wallet');
 const org1UserId = 'javascriptAppUser';
 const asyncHandler = require("express-async-handler");
